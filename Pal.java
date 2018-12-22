@@ -37,7 +37,7 @@ if(org==rev)
 
 {
 
-System.out.println(org+ "is palindrome");
+System.out.println("Yes");
 
 }
 
@@ -45,7 +45,7 @@ else
 
 {
 
-System.out.println(org +"is not palindrome");
+System.out.println("No");
 
 }
 }
