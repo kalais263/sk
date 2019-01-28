@@ -1,6 +1,6 @@
-getInput=raw_input()
+Input=raw_input()
 count=1
-for i in getInput:
+for i in Input:
     if i==' ' :
         count=count+1
 print(count)
