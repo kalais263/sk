@@ -7,5 +7,5 @@ for i in x:
   elif i=='':
     pass
   else:  
-    new=re.sub('[\w]+' ,'' , x)
-print(len(new)
+    new=re.sub('[\w.]+' ,'' , x)
+print(len(new))
