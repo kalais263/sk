@@ -3,5 +3,5 @@ y=int(input(""))
 temp=x
 x=y
 y=temp
-print(format(x))
-print(format(y))
+print(format(x), format(y))
+
