@@ -1,12 +1,12 @@
 n=int(input())
 h=0
-if(n>60):
+while(n>60):
   min=n-60
   h=h+1
   if(min>60):
     n=min
   else:
-    print("")
+    break
 if(n>60):
   print(h,min)
 else:
