@@ -1,2 +1,3 @@
 a=input()
-print(int(len(a)))
+b=int(len(a))
+print(b)
