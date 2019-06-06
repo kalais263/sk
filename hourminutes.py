@@ -1,0 +1,13 @@
+n=int(input())
+h=0
+if(n>60):
+  min=n-60
+  h=h+1
+  if(min>60):
+    n=min
+  else:
+    print("")
+if(n>60):
+  print(h,min)
+else:
+  print(h,n)
