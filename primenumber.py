@@ -1,8 +1,11 @@
 n=int(input())
-for i in range(2,n//2):
-  if(n%i)==0:
-    print("no")
-    break
-  else:
-    print("yes")
-    break
+temp=n
+rev=0
+while(n>0):
+  d=n%10
+  rev=rev*10+d
+  n=n//10
+if(temp==rev):
+  print("yes")
+else:
+  print("no")
