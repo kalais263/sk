@@ -1,3 +1,3 @@
 a=input()
-b=a.title()
-print(b)
+b=a.upper()
+print(b.title())
