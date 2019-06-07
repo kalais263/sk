@@ -1,0 +1,12 @@
+a,b=map(int,input().split())
+c,d=map(int,input().split())
+e,f=map(int,input().split())
+g,h=map(int,input().split())
+t1=d-b
+t2=f-h
+t3=e-c
+t4=g-a
+if(t1==t2==t3==t4):
+  print("yes")
+else:
+  print("no")
